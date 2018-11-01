@@ -6,14 +6,14 @@
 	    <title>Hi! I'm Derek Zhan</title>
     </head>
     <body>
-  		<section id="TopSection">
+  		<section id="Top">
 			<nav class="navbar navbar-inverse">
 			    <ul class="nav navbar-nav" style="padding-left:3%;">
-			    	<li><a class="navbar-brand" href="#TopSection">Home</a></li>
-			      	<li><a class="navbar-brand" href="#AboutSection">About</a></li>
-			      	<li><a class="navbar-brand" href="https://derekjan1240.github.io/">SectionB</a></li>
-			      	<li><a class="navbar-brand" href="https://derekjan1240.github.io/">SectionC</a></li>
-			      	<li><a class="navbar-brand" href="https://derekjan1240.github.io/">SectionD</a></li>
+			    	<li><a class="navbar-brand" href="#Top">Derek</a></li>
+			      	<li><a class="navbar-brand" href="#About">About</a></li>
+			      	<li><a class="navbar-brand" href="#Experience">Experience</a></li>
+			      	<li><a class="navbar-brand" href="#Project">Projects</a></li>
+			      	<li><a class="navbar-brand" href="#Contact">Contact</a></li>
 			    </ul>
 			</nav>
 
@@ -29,11 +29,11 @@
 		</section>
 
 		<div id="content">
-			<section id="AboutSection">
+			<section id="About">
 				<div class="personal_information">
 					<h2><b>About</b></h2><br>
 					<p> Name: Kai-Jian Zhan (Derek)</p>
-					<p> E-mail: t103310118@ntut.org.tw</p>
+					<p> E-mail: derekjan1240@gmail.com</p>
 					<p> Education: National Taipei University of Technology</p>
 					<p> Major: Electrical Engineering</p>
 					<p> Facebook: <a href="https://goo.gl/H9wJXe">https://goo.gl/H9wJXe</a></p>
@@ -42,14 +42,75 @@
 				</div>
 				<div class="skill_information">
 					<h2><b>Skills</b></h2><br>
-					<p> Node JS</p>
-					<p> MongoDB</p>
-					<p> HTML CSS JS</p>
-					<p> C</p>
-					<p> Arduino</p>
+					<p>Node JS</p>
+					<div class="progress" style="width: 80%">
+						<div class="progress-bar progress-bar-striped bg-info" role="progressbar" style="width: 70%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+					</div>
+					<p>MongoDB</p>
+					<div class="progress" style="width: 80%">
+  						<div class="progress-bar progress-bar-striped bg-info" role="progressbar" style="width: 40%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+					</div>
+					<p>HTML CSS JS</p>
+					<div class="progress" style="width: 80%">
+  						<div class="progress-bar progress-bar-striped bg-info" role="progressbar" style="width: 60%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+					</div>
+					<p>C</p>
+					<div class="progress" style="width: 80%">
+  						<div class="progress-bar progress-bar-striped bg-info" role="progressbar" style="width: 30%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+					</div>
+					<p>Arduino</p>
+					<div class="progress" style="width: 80%">
+  						<div class="progress-bar progress-bar-striped bg-info" role="progressbar" style="width: 60%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+					</div>
 				</div>
 			</section>
 		</div> 
+
+		<section id="Project">
+			
+			<span style = "text-align: center;"><h2><b>Projects</b></h2></span>
+			
+			<div class="container">
+				<div class="card">
+				  <img class="card-img-top" src="temp.png" alt="Card image cap" style="width: 10%">
+				  <div class="card-body">
+				    <h5 class="card-title">Project A</h5>
+				    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+				    <a href="#" class="btn btn-primary">Go</a>
+				  </div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="card">
+				  <img class="card-img-top" src="temp.png" alt="Card image cap" style="width: 10%">
+				  <div class="card-body">
+				    <h5 class="card-title">Project C</h5>
+				    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+				    <a href="#" class="btn btn-primary">Go</a>
+				  </div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="card">
+				  <img class="card-img-top" src="temp.png" alt="Card image cap" style="width: 10%">
+				  <div class="card-body">
+				    <h5 class="card-title">Project C</h5>
+				    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+				    <a href="#" class="btn btn-primary">Go</a>
+				  </div>
+				</div>
+			</div>
+		</section>
+		
+		<section id="Experience">
+			<span style = "text-align: center;"><h2><b>Experience</b></h2></span>
+			<div style="height: 100px;"></div>
+		</section>
+
+		<section id="Contact">
+			<span style = "text-align: center;"><h2><b>Contact Link</b></h2></span>
+		</section>
+		
 	</body>
 </html>
 
@@ -79,16 +140,39 @@
     	color: #2F2F2F;
     }
 
+    #Project{
+    	padding-top: 20px;
+    	clear: both;
+    }
+
+	#Experience{
+    	padding: 20px;
+    	background: #fcf8e3;
+    	clear: both;
+    }
+
+    #Contact{
+    	padding: 20px;
+    	background: #8ea8bf;
+    	text-align: center;
+    	clear: both;
+    }
+
+    .card{
+    	background: #D9E5D6; 
+    	padding:20px;
+    	margin: 20px;
+    	border-radius: 5px;
+    }
+
     .personal_information{
     	padding:50px 50px 50px 8%;
     	height: 600px;
     	width:50%;
     	text-align:left;
         font-size: 20px;
-        border: 1px solid #ddd;
-        box-shadow: 1px 3px 5px rgba(0,0,0,0.05);
         border-radius: 2px;
-        background: #BFD7EA;
+        background: #EDF2F4;
         color: #2F2F2F;
         float: left;
     }
@@ -99,9 +183,7 @@
     	width:50%;
     	text-align:left;
         font-size: 20px;
-        border: 1px solid #ddd;
-        box-shadow: 1px 3px 5px rgba(0,0,0,0.05);
-        border-radius: 2px;
+        border-radius: 5px;
         background: #FBB7C0;
         color: #2F2F2F;
         float: right;
