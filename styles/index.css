@@ -1,0 +1,85 @@
+body {
+    font-family: monospace, 'Noto Sans TC', sans-serif;
+    background: #ffffff;
+    color: #2F2F2F;
+}
+
+section {
+    padding-top: 50px;
+}
+
+header {
+    height: 70px;
+}
+
+img {
+    padding: 10px;
+}
+
+.btn-social-icon {
+    color: rgba(255, 255, 255, .55);
+}
+
+.btn-social-icon:hover {
+    color: rgba(255, 255, 255, .75)
+}
+
+.badge {
+    font-weight: normal !important;
+}
+
+.welcome-card {
+    font-size: 70px;
+    font-weight: bolder;
+    min-height: 50vh;
+}
+
+.profile-card {
+    height: 100%;
+    padding: 50px;
+    background: #EDF2F4;
+    border-radius: 5px;
+}
+
+.skills-card {
+    height: 100%;
+    padding: 50px;
+    background: #FBB7C0;
+    border-radius: 5px;
+}
+
+.card-body {
+    font-size: 1.25rem;
+}
+
+.project-card {
+    background: #D9E5D6;
+}
+
+.avatar {
+    border-radius: 20px;
+    max-width: 200px;
+}
+
+.avatar:hover {
+    animation: floating 2s infinite ease-in-out;
+}
+
+@keyframes floating {
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+.go-top-button {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    display: none;
+    background: #ffc107;
+    border: 0px;
+}
+
+.go-top-button:hover {
+    background: #ffc107b4;
+}
