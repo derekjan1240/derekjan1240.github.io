@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/derekjan1240.github.io/static/css/main.073c9b0a.css",
+    "main.js": "/derekjan1240.github.io/static/js/main.12ed5039.js",
+    "static/js/787.25a19d32.chunk.js": "/derekjan1240.github.io/static/js/787.25a19d32.chunk.js",
+    "static/media/logo.svg": "/derekjan1240.github.io/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/derekjan1240.github.io/index.html",
+    "main.073c9b0a.css.map": "/derekjan1240.github.io/static/css/main.073c9b0a.css.map",
+    "main.12ed5039.js.map": "/derekjan1240.github.io/static/js/main.12ed5039.js.map",
+    "787.25a19d32.chunk.js.map": "/derekjan1240.github.io/static/js/787.25a19d32.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.12ed5039.js"
+  ]
+}
